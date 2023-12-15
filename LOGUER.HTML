@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" type="text/css" href="LOGUER.CSS">
+</head>
+<body>
+
+    <!-- Formulario de inicio de sesión -->
+    <form action="procesar_login.py" method="post">
+        <!-- Etiqueta y campo para el nombre de usuario -->
+        <label for="username">Nombre de usuario:</label>
+        <!-- Utiliza el atributo placeholder para mostrar un ejemplo de correo -->
+        <input type="text" id="username" name="username" placeholder="correo@Gmail.com" required>
+
+        <!-- Etiqueta y campo para la contraseña -->
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+
+        <!-- Botón para enviar el formulario -->
+        <button type="submit">Iniciar sesión</button>
+    </form>
+
+</body>
+</html>
+
